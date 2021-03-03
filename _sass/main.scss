@@ -1,0 +1,106 @@
+$pagePadding: 40px;
+$contentColumn: 2;
+
+
+/* Places the element in the visible section of the document
+   i.e., in the middle of the screen.
+*/
+@mixin content() {
+  grid-column-start: $contentColumn;
+  grid-column-end: $contentColumn;
+}
+
+
+@mixin menu() {
+  background-color: #f3f3f3;
+  border: 1px solid #e7e7e7;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  @include content;
+}
+
+
+@mixin inactive-menu-link() {
+  text-decoration: none;
+  color: #666;
+}
+
+
+.currentTab {
+  color: #0077aa;
+}
+
+
+body{
+  min-height: calc(100vh - #{2 * $pagePadding});
+  margin:0px auto;
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  padding: $pagePadding 0px;
+  
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto 650px auto;
+}
+
+
+nav {
+  @include menu;
+  grid-row-start: 1;
+  grid-row-start: 1;
+}
+
+
+nav a {
+  display: inline;
+  padding: 14px;
+  @include inactive-menu-link;
+}
+
+
+main {
+  @include content;
+  grid-row-start: 2;
+  grid-row-start: 2;
+}
+
+
+footer {
+  @include menu;
+  grid-row-start: 3;
+  grid-row-start: 3;
+}
+
+
+footer div {
+  display: inline;
+  text-align: center;
+  padding: 14px;
+}
+
+
+footer div a {
+  @include inactive-menu-link;
+}
+
+
+h1,h2,h3{
+  line-height:1.2
+}
+
+
+a{
+  color: inherit;
+}
+
+
+a:hover {
+  color: #0077aa;
+}
+
+
+img {
+  height: 24px;
+}

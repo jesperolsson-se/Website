@@ -1,0 +1,5 @@
+<nav>
+  {% for item in site.data.topTab %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="currentTab"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>
