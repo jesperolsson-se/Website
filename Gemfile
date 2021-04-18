@@ -7,3 +7,5 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
 end
+
+gem "jekyll-target-blank", "~> 2.0"

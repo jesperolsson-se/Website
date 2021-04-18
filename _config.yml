@@ -18,7 +18,10 @@ defaults:
     values:
       layout: "default"
 
+url: jesperolsson.se
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-target-blank # https://github.com/keithmifsud/jekyll-target-blank
