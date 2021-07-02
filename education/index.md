@@ -1,4 +1,5 @@
 ---
 title: Education
 ---
-(Thank you for your interest, but this page is still undergoing development.)
+# University
+Jesper received his software engineering degree from [Chalmers University of Technology](https://www.chalmers.se/en/Pages/default.aspx). During his master studies, he completed two profile tracks: *Software architecture and process management*, and *Software and Algorithms*.
