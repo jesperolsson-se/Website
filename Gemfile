@@ -9,3 +9,5 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-target-blank", "~> 2.0"
+
+gem "webrick", "~> 1.7"
