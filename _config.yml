@@ -25,3 +25,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-target-blank # https://github.com/keithmifsud/jekyll-target-blank
+
+target-blank:
+  css_class: ext-link
