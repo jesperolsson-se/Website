@@ -14,3 +14,11 @@ largest and oldest gaming convention in Sweden. Additionally, he has previously
 been the chairman of a student board game association with over 120 active
 members.
 
+# Social dancing
+
+Although almost criminally unskilled at everything musical, Jesper finds a lot
+of joy in the swing dances of the early twentieth century.
+[Lindy Hop](https://en.wikipedia.org/wiki/Lindy_Hop){: class="ext-link"} is a
+favourite, being energetic, playful and improvisational. He dances at
+[WCJ](https://wcj.se){: class="ext-link"}.
+
