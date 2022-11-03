@@ -22,3 +22,6 @@ of joy in the swing dances of the early twentieth century.
 favourite, being energetic, playful and improvisational. He dances at
 [WCJ](https://wcj.se){: class="ext-link"}.
 
+# Geocaching
+Jesper enjoys combining walks with [geocaching](https://en.wikipedia.org/wiki/Geocaching). Many hiking trails are added to by this activity; whether the caches become more interesting milestones or if their locations reveal off-trail gems.
+
